@@ -1,0 +1,125 @@
+body {
+  background-color: rgb(68, 68, 68);
+  color: #fff;
+}
+
+.navbar {
+  border-bottom: #006331 3px solid;
+}
+
+/*Seccion de inicio donde esta ancapsulada la imagen principal */
+#home-section {
+  background: url('../img/header.jpg') no-repeat;
+  min-height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* Cuadro negro que hace cover encima de imagen HEADER */
+ .dark-overlay {
+  background-color: rgba(1, 8, 8, 0.664);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100%;
+} 
+
+.home-inner {
+  padding-top: 150px;
+}
+@media (max-width: 992px) {
+  .home-inner {
+    padding-top: 100px;
+  }
+}
+
+/* Botones Facebook e Instagram */
+ul{
+  position: relative;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+ul li{
+  position: relative;
+  list-style: none;
+  width: 30px;
+  height: 30px;
+  margin: 0 20px;
+  transform: rotate(-30deg) skew(25deg);
+  background-color: #ccc;
+}
+
+ul li span{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:  100%;
+  height: 100%;
+  background-color: #000;
+  transition: 0.5s;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 20px !important;
+}
+
+ul li:hover span:nth-child(5){
+  transform: translate(15px, -15px);
+  opacity: 1;
+}
+
+ul li:hover span:nth-child(4){
+  transform: translate(15px, -15px);
+  opacity: .8;
+}
+
+ul li:hover span:nth-child(3){
+  transform: translate(10px, -10px);
+  opacity: .6;
+}
+
+ul li:hover span:nth-child(2){
+  transform: translate(5px, -5px);
+  opacity: .4;
+}
+
+ul li:hover span:nth-child(1){
+  transform: translate(0px, 0px);
+  opacity: .2;
+}
+
+ul li:nth-child(1) span{
+  background-color: #3b5999;
+}
+
+ul li:nth-child(2) span{
+  background-color: #ff0040;
+}
+
+/* FIN Botones Facebook e Instagram */
+
+/* Container PDF */
+.container1{
+  width: 800px;
+  height: 1000px;
+  margin: 30px auto;
+  font-family: helvetica, tahoma;
+  border: 6px solid rgba(0, 0, 0, 0.664);
+}
+
+#viewpdf{
+  width: 100%;
+  height: 100%;
+  border: 3px solid rgba(0, 0, 0, 0.664);
+}
+
+
+
+
+
+
+
+
