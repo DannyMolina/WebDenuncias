@@ -10,7 +10,8 @@ body {
 /*Seccion de inicio donde esta ancapsulada la imagen principal */
 #home-section {
   background: url('../img/header.jpg') no-repeat;
-  min-height: 100vh;
+  height: 60%;
+  min-height: 60vh;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -21,7 +22,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  min-height: 100%;
+  min-height: 60%;
 } 
 
 .home-inner {
@@ -116,6 +117,10 @@ ul li:nth-child(2) span{
   border: 3px solid rgba(0, 0, 0, 0.664);
 }
 
+.tamaño{
+  width: 300px;
+  height: 150px;
+}
 
 
 
