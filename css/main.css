@@ -19,14 +19,15 @@ body {
   background-attachment: fixed;
 }
 /* Cuadro negro que hace cover encima de imagen HEADER */
- .dark-overlay {
+
+ /* .dark-overlay {
   background-color: rgba(1, 8, 8, 0.664);
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   min-height: 60%;
-} 
+}  */
 
 .home-inner {
   padding-top: 150px;
@@ -125,9 +126,9 @@ ul li:nth-child(2) span{
   height: 150px;
 }
 
-
-
-
+.parrafos{
+  background-color: rgba(0, 0, 0, 0.5);
+}
 
 
 
