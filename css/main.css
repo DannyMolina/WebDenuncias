@@ -3,13 +3,16 @@ body {
   color: #fff;
 }
 
+.bodyf{
+  background: url('../img/header.jpg') no-repeat;
+}
 .navbar {
-  border-bottom: #006331 3px solid;
+  border-bottom: #00a2ca 3px solid;
 }
 
 /*Seccion de inicio donde esta ancapsulada la imagen principal */
 #home-section {
-  background: url('../img/header.jpg') no-repeat;
+  background: url('../img/header1.jpg') no-repeat;
   height: 60%;
   min-height: 60vh;
   background-size: cover;
