@@ -4,7 +4,11 @@ body {
 }
 
 .bodyf{
-  background: url('../img/header.jpg') no-repeat;
+  background: url('../img/header2.jpg') no-repeat;
+}
+.bodym{
+  background: url('../img/fondomaltrato.jpg') no-repeat;
+  background-size: cover;
 }
 .navbar {
   border-bottom: #00a2ca 3px solid;
@@ -20,14 +24,14 @@ body {
 }
 /* Cuadro negro que hace cover encima de imagen HEADER */
 
- /* .dark-overlay {
+  /* .dark-overlay {
   background-color: rgba(1, 8, 8, 0.664);
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   min-height: 60%;
-}  */
+}   */
 
 .home-inner {
   padding-top: 150px;
@@ -106,20 +110,14 @@ ul li:nth-child(2) span{
 
 /* FIN Botones Facebook e Instagram */
 
-/* Container PDF */
-.container1{
-  width: 800px;
-  height: 1000px;
-  margin: 30px auto;
-  font-family: helvetica, tahoma;
-  border: 6px solid rgba(0, 0, 0, 0.664);
-}
+.borderedondo{
+  border-radius: 25px;
+  border: #000 solid 2px;
+  }
 
-#viewpdf{
-  width: 100%;
-  height: 100%;
-  border: 3px solid rgba(0, 0, 0, 0.664);
-}
+  .sep{
+    padding-left: 2px;
+  }
 
 .tamaño{
   width: 300px;
@@ -127,7 +125,10 @@ ul li:nth-child(2) span{
 }
 
 .parrafos{
-  background-color: rgba(0, 0, 0, 0.5);
+   background-color: rgba(0, 0, 0, 0.5); 
+   padding-bottom: 10px;
+   border-radius: 2px;
+  
 }
 
 
