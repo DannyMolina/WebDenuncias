@@ -1,6 +1,9 @@
 body {
   background-color: rgb(68, 68, 68);
   color: #fff;
+  font-family:'Roboto', sans-serif;
+
+
 }
 
 .bodyf{
@@ -17,6 +20,7 @@ body {
   min-height: 60vh;
   background-size: cover;
   background-attachment: fixed;
+  
 }
 /* Cuadro negro que hace cover encima de imagen HEADER */
 
@@ -30,11 +34,13 @@ body {
 }  */
 
 .home-inner {
-  padding-top: 150px;
+  padding-top: 25px;
+
 }
 @media (max-width: 992px) {
   .home-inner {
     padding-top: 100px;
+     
   }
 }
 
