@@ -140,6 +140,9 @@ ul li:nth-child(2) span{
   font-family: 'Permanent Marker', cursive;
 }
 
+.l{
+  font-family: 'Gloria Hallelujah', cursive;
+}
 .c{
   display: flex;
   align-items: start;
